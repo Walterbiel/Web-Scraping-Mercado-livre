@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 selenium = "^4.28.1"
+webdriver-manager = "^4.0.2"
 
 
 [build-system]
