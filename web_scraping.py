@@ -103,6 +103,9 @@ df = df[df['Nome'] != "nd"]
 
 con = duckdb.connect("mercadolivre.db")  
 con.register('produtos', df)
+
 con.close()
+
+df.to_csv('mercadolivre.csv')
 
 print('Executado com sucesso')
